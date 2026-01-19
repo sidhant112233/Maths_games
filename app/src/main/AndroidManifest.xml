@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Maths_games">
+        <activity
+            android:name=".Question_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".WelcomeBack_Activity"
+            android:exported="false"
+            android:fitsSystemWindows="true"
+            android:statusBarColor="@android:color/transparent"
+            android:theme="@style/Theme.Maths_games"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Hint.Hint_Activity"
+            android:exported="false"
+            android:fitsSystemWindows="true"
+            android:statusBarColor="@android:color/transparent"
+            android:theme="@style/Theme.Maths_games"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Setting_Activity"
+            android:exported="false"
+            android:fitsSystemWindows="true"
+            android:statusBarColor="@android:color/transparent"
+            android:theme="@style/Theme.Maths_games"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Mul.Mul_Hard_Activity"
+            android:exported="false"
+            android:fitsSystemWindows="true"
+            android:statusBarColor="@android:color/transparent"
+            android:theme="@style/Theme.Maths_games"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Mul.Mul_Duel_Activity"
+            android:exported="false"
+            android:fitsSystemWindows="true"
+            android:statusBarColor="@android:color/transparent"
+            android:theme="@style/Theme.Maths_games"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Mul.Mul_Timer_Activity"
+            android:exported="false"
+            android:fitsSystemWindows="true"
+            android:statusBarColor="@android:color/transparent"
+            android:theme="@style/Theme.Maths_games"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Mul.Mul_Practice_Activity"
+            android:exported="false"
+            android:fitsSystemWindows="true"
+            android:statusBarColor="@android:color/transparent"
+            android:theme="@style/Theme.Maths_games"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Div.Div_Hard_Activity"
+            android:exported="false"
+            android:fitsSystemWindows="true"
+            android:statusBarColor="@android:color/transparent"
+            android:theme="@style/Theme.Maths_games"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Div.DIv_Duel_Activity"
+            android:exported="false"
+            android:fitsSystemWindows="true"
+            android:statusBarColor="@android:color/transparent"
+            android:theme="@style/Theme.Maths_games"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Div.Div_Timer_Activity"
+            android:exported="false"
+            android:fitsSystemWindows="true"
+            android:statusBarColor="@android:color/transparent"
+            android:theme="@style/Theme.Maths_games"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Div.Div_Practice_Activity"
+            android:exported="false"
+            android:fitsSystemWindows="true"
+            android:statusBarColor="@android:color/transparent"
+            android:theme="@style/Theme.Maths_games"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Sub.Sub_hard_Activity"
+            android:exported="false"
+            android:fitsSystemWindows="true"
+            android:statusBarColor="@android:color/transparent"
+            android:theme="@style/Theme.Maths_games"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Sub.Sub_Duel_Activity"
+            android:exported="false"
+            android:fitsSystemWindows="true"
+            android:statusBarColor="@android:color/transparent"
+            android:theme="@style/Theme.Maths_games"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Sub.Sub_Timer_Activity"
+            android:exported="false"
+            android:fitsSystemWindows="true"
+            android:statusBarColor="@android:color/transparent"
+            android:theme="@style/Theme.Maths_games"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Sub.Sub_Practice_Activity"
+            android:exported="false"
+            android:fitsSystemWindows="true"
+            android:statusBarColor="@android:color/transparent"
+            android:theme="@style/Theme.Maths_games"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Sub.Sub_Second_opt_Activity"
+            android:exported="false"
+            android:fitsSystemWindows="true"
+            android:statusBarColor="@android:color/transparent"
+            android:theme="@style/Theme.Maths_games"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Addition.Hard_Activity"
+            android:exported="false"
+            android:fitsSystemWindows="true"
+            android:statusBarColor="@android:color/transparent"
+            android:theme="@style/Theme.Maths_games"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Addition.Duel_Activity"
+            android:exported="false"
+            android:fitsSystemWindows="true"
+            android:statusBarColor="@android:color/transparent"
+            android:theme="@style/Theme.Maths_games"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Timer_Activity"
+            android:exported="false"
+            android:fitsSystemWindows="true"
+            android:statusBarColor="@android:color/transparent"
+            android:theme="@style/Theme.Maths_games"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Addition.Practce_Activity"
+            android:exported="false"
+            android:fitsSystemWindows="true"
+            android:statusBarColor="@android:color/transparent"
+            android:theme="@style/Theme.Maths_games"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Second_opt_Activity"
+            android:exported="false"
+            android:fitsSystemWindows="true"
+            android:statusBarColor="@android:color/transparent"
+            android:theme="@style/Theme.Maths_games"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:fitsSystemWindows="true"
+            android:statusBarColor="@android:color/transparent"
+            android:theme="@style/Theme.Maths_games"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Splash_Activity"
+            android:exported="true"
+            android:fitsSystemWindows="true"
+            android:statusBarColor="@android:color/transparent"
+            android:theme="@style/Theme.Maths_games"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+    </application>
+
+</manifest>

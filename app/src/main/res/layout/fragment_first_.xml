@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@drawable/bg_green_gradient"
+
+    tools:context=".Hint.Second_Fragment">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginVertical="20dp"
+        android:id="@+id/animation_view"
+        app:lottie_rawRes="@raw/brain"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Math Game!"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+
+        android:gravity="center"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/descText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sharpen your mind while having fun.\nSolve math challenges that grow with your skills!"
+        android:textColor="#FFF8E1"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:lineSpacingExtra="4dp"
+        android:layout_marginHorizontal="20dp" />
+
+</LinearLayout>

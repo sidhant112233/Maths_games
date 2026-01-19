@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/bg_green_gradient"
+
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rate BackPass"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:fontFamily="@font/bevietnampro_bold"
+        android:paddingBottom="10dp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="1"
+        android:layout_gravity="center"
+        android:paddingBottom="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/laterBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="40dp"
+            android:layout_weight="1"
+            android:backgroundTint="#B9E985"
+            android:paddingVertical="15dp"
+            android:text="Latter"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:cornerRadius="20dp" />
+
+        <Space
+            android:layout_width="12dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/rateBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rate Now"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:paddingVertical="15dp"
+            android:layout_weight="1"
+
+            android:backgroundTint="#B9E985"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="40dp"
+            app:cornerRadius="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>

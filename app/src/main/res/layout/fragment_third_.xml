@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@drawable/bg_green_gradient"
+    tools:context=".Hint.Third_Fragment">
+
+
+    <TextView
+        android:id="@+id/trophyIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🏆"
+        android:textSize="90sp"
+        android:layout_marginBottom="24dp"
+        android:animation="@anim/bounce_trophy" />
+
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Compete and Improve!"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+
+        android:gravity="center"
+        android:layout_marginBottom="12dp" />
+
+
+    <TextView
+        android:id="@+id/descText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Track your progress, beat your own score, and become a Math Master!"
+        android:textColor="#E3F2FD"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:lineSpacingExtra="6dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="24dp" />
+
+
+    <FrameLayout
+        android:layout_width="250dp"
+        android:layout_height="16dp"
+        android:background="@drawable/progress_bg"
+        android:layout_marginTop="10dp">
+
+        <View
+            android:id="@+id/progressFill"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/progress_fill" />
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@drawable/bg_green_gradient"
+    tools:context=".Hint.Second_Fragment">
+
+
+    <FrameLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="30dp">
+
+        <TextView
+            android:id="@+id/plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="＋"
+            android:textSize="48sp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="top|left"
+            android:fontFamily="@font/bevietnampro_bold"
+            android:animation="@anim/float_symbol1" />
+
+        <TextView
+            android:id="@+id/minus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="－"
+            android:fontFamily="@font/bevietnampro_bold"
+
+            android:textSize="48sp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="bottom|right"
+            android:animation="@anim/float_symbol2" />
+
+        <TextView
+            android:id="@+id/symbolX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bevietnampro_bold"
+
+            android:text="×"
+            android:textSize="48sp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/div"
+            android:text="÷"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="48sp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="bottom|left"
+            android:fontFamily="@font/bevietnampro_bold"
+            android:animation="@anim/float_symbol4" />
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Your Math Challenge"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+
+        android:gravity="center"
+        android:layout_marginBottom="12dp" />
+
+
+    <TextView
+        android:id="@+id/descText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Addition, Subtraction, Multiplication, or Division — pick your favorite and start mastering it!"
+        android:textColor="#E8F5E9"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:lineSpacingExtra="4dp"
+        android:layout_marginHorizontal="20dp" />
+
+</LinearLayout>
