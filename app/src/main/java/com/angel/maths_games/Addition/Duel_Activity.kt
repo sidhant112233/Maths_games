@@ -377,6 +377,8 @@ class Duel_Activity : AppCompatActivity() {
     private var backPressedTime = 0L
 
     override fun onBackPressed() {
+        super.onBackPressed()
+
         if (backPressedTime + 2000 > System.currentTimeMillis()) {
 
             super.onBackPressed()

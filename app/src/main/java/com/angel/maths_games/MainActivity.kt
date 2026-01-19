@@ -1,5 +1,6 @@
 package com.angel.maths_games
 
+import android.annotation.SuppressLint
 import android.app.Dialog
 import android.content.Intent
 import android.graphics.Color
@@ -193,7 +194,10 @@ class   MainActivity : AppCompatActivity() {
         adView.loadAd(request)
     }
 
+    @Deprecated("This method has been deprecated in favor of using the\n      {@link OnBackPressedDispatcher} via {@link #getOnBackPressedDispatcher()}.\n      The OnBackPressedDispatcher controls how back button events are dispatched\n      to one or more {@link OnBackPressedCallback} objects.")
+    @SuppressLint("GestureBackNavigation")
     override fun onBackPressed() {
+        super.onBackPressed()
         BottomDialog().show(supportFragmentManager, "bottomDialog")
     }
 

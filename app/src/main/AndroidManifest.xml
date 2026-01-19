@@ -13,9 +13,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Maths_games">
         <activity
-            android:name=".Question_Activity"
-            android:exported="false" />
-        <activity
             android:name=".WelcomeBack_Activity"
             android:exported="false"
             android:fitsSystemWindows="true"

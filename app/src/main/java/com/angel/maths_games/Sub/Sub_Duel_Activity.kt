@@ -335,6 +335,8 @@ class Sub_Duel_Activity : AppCompatActivity() {
     }
 
     override fun onBackPressed() {
+        super.onBackPressed()
+
         showExitConfirmation()
     }
 

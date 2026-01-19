@@ -24,8 +24,8 @@
             android:contentDescription="Back"
             android:src="@drawable/back"
             android:padding="6dp"
-            android:tint="@color/white"
-            android:layout_marginStart="8dp"/>
+            android:layout_marginStart="8dp"
+            app:tint="@color/white" />
 
         <TextView
             android:id="@+id/progressText"
