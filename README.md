@@ -48,7 +48,7 @@ Maths Games is an Android application designed to help users practice and improv
 Follow these steps to configure and run the project locally:
 
 ```bash
-git clone https://github.com/<your-username>/Maths_games.git
+git clone https://github.com/sidhant112233/Maths_games.git
 cd Maths_games
 ```
 
