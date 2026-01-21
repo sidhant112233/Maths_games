@@ -33,11 +33,11 @@ Maths Games is an Android application designed to help users practice and improv
 > Add your screenshots inside `/screenshots` folder and display them here like this:
 
 
-<img width="720" height="1604" alt="image" src="https://github.com/user-attachments/assets/1a0ad204-214c-43ca-b9ee-4224879739db" />
-<img width="720" height="1604" alt="image" src="https://github.com/user-attachments/assets/9d582c68-1312-4568-97fd-2be2ee794a6a" />
-<img width="720" height="1604" alt="image" src="https://github.com/user-attachments/assets/13b0cc69-4833-4086-9a5f-2e8cf785ca31" />
-<img width="720" height="1604" alt="image" src="https://github.com/user-attachments/assets/121e2322-bd13-44d8-ba4e-ace5aca569ff" />
-<img width="720" height="1604" alt="image" src="https://github.com/user-attachments/assets/f58047ef-e8ce-40e2-85ba-81cca8fcdd99" />
+<img width="400" height="1604" alt="image" src="https://github.com/user-attachments/assets/1a0ad204-214c-43ca-b9ee-4224879739db" />
+<img width="400" height="1604" alt="image" src="https://github.com/user-attachments/assets/9d582c68-1312-4568-97fd-2be2ee794a6a" />
+<img width="400" height="1604" alt="image" src="https://github.com/user-attachments/assets/13b0cc69-4833-4086-9a5f-2e8cf785ca31" />
+<img width="400" height="1604" alt="image" src="https://github.com/user-attachments/assets/121e2322-bd13-44d8-ba4e-ace5aca569ff" />
+<img width="400" height="1604" alt="image" src="https://github.com/user-attachments/assets/f58047ef-e8ce-40e2-85ba-81cca8fcdd99" />
 
 
 
